@@ -28,3 +28,13 @@ li {
     background-color: #000;
     border-radius: 50%;
 }
+
+.footer-elements {
+    display: flex;
+    align-items: center;
+}
+
+.footer-subelements {
+    display: flex;
+    justify-content: flex-start;
+}
