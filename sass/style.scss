@@ -124,7 +124,7 @@ span {
     padding-bottom: 96px;
     max-width: 1000px;
     display: inline-block;
-} 
+}
 
 .services p, .portfolio p {
     font-family: 'Merriweather', serif;
@@ -205,7 +205,11 @@ span {
     justify-content: flex-start;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 30px;
+    }
 
     .navigation li {
         display: block;
@@ -233,3 +237,28 @@ span {
         padding: 10px;
     }
 }
+
+@media (max-width: 375px) {
+
+    .splash {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 612px) {
+    .footer-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          line-height: 50px;
+        }
+        .icons {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: translate(0, 0);
+          padding-bottom: 10px;
+        }
+      }
+    }
