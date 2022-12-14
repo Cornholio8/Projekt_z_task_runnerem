@@ -238,14 +238,7 @@ span {
     }
 }
 
-@media (max-width: 375px) {
-
-    .splash {
-        height: 80vh;
-    }
-}
-
-@media (max-width: 612px) {
+@media (max-width: 414px) {
     .footer-elements {
         display: flex;
         flex-direction: column;
@@ -261,4 +254,16 @@ span {
           padding-bottom: 10px;
         }
       }
+
+    .splash-inner a {
+        min-width: 120px;
+        font-size: 12px;
+        height: 50px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-subelements {
+        margin-left: -50px;
+    }
     }
